@@ -8,9 +8,9 @@ Part 3: Customized Task 英翻中
 
 使用Gemini API key 或 OpenAI API key  
 
-## HW4 PHW「Become_an_AI_Hypnosis_Master」
+## HW4「Become_an_AI_Hypnosis_Master」
 藉由提示詞提高精準度，更多參考:
-1. https://www.facebook.com/moinwawa/posts/pfbid0VBRrBKjvF2eP2ED3jWNTCpfK227uKC1uD3ZHMN5JpuY3bYdkeVMnM2hNh8ywagvWl
+1. [FB 林育聖](https://www.facebook.com/moinwawa/posts/pfbid0VBRrBKjvF2eP2ED3jWNTCpfK227uKC1uD3ZHMN5JpuY3bYdkeVMnM2hNh8ywagvWl)
 2. In-Context Learning  
 
 使用Gemini API key
