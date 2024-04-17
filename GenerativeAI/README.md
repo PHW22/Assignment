@@ -18,7 +18,17 @@ Part 3: Customized Task 英翻中
 ## HW5 「LLM_fine_tuning」
 調整模型超參數，以 Transformer 為例
 
+## HW6 「LLM Values Alignment」  
+Values Alignment：機器給的答案符合人類的價值觀  
+實現方法：Reinforcemain Learning with Human Feedback（RLHF）  
+由於RLHF需要訓練回饋模型 (Reward Model)，選用輕型的RLHF，稱為direct preference optimization（DPO）  
 
+| num_epoc | data_size | support_ratio | 內容 |
+|------|------|--------|--------|
+| 3 | 50 | 1 | 正面，和 original 差異較大，簡短很多 |
+| 1 | 50 | 1 | 正面，和 original 回答內容相近、長度相近 |
+| 3 | 10 | 1 | 正面，和 original 回答內容相近、長度相近，和上面差不多 |
+| 3 | 50 | 0 | 反面，內容長度較 original短 |
 
 
 
