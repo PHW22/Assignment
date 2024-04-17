@@ -21,7 +21,7 @@ Part 3: Customized Task 英翻中
 ## HW6 「LLM Values Alignment」  
 Values Alignment：機器給的答案符合人類的價值觀  
 實現方法：Reinforcemain Learning with Human Feedback（RLHF）  
-由於 RLHF 需要訓練回饋模型 （Reward Model），因此選用輕型的RLHF，稱為direct preference optimization（DPO）  
+由於 RLHF 需要訓練回饋模型 （Reward Model），因此選用輕型的RLHF，稱為 direct preference optimization（DPO）  
 
 | num_epoc | data_size | support_ratio | 生成內容 |
 |------|------|--------|--------|
