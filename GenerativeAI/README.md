@@ -13,9 +13,9 @@ Part 3: Customized Task 英翻中
 1. [FB 林育聖](https://www.facebook.com/moinwawa/posts/pfbid0VBRrBKjvF2eP2ED3jWNTCpfK227uKC1uD3ZHMN5JpuY3bYdkeVMnM2hNh8ywagvWl)
 2. In-Context Learning  
 
-使用Gemini API key
+使用 Gemini API key
 
-## HW5 「LLM_fine_tuning」
+## HW5 「LLM fine tuning」
 調整模型超參數，以 Transformer 為例
 
 ## HW6 「LLM Values Alignment」  
@@ -31,6 +31,17 @@ Values Alignment：機器給的答案符合人類的價值觀
 | 3 | 50 | 0 | 反面，內容長度較 original短 |
 
 模型：[Breeze-7b](https://www.mediatek.tw/blog/mediatek-research-breeze-7b)（聯發科）
+
+## HW7 「LLM explanation」  
+方法一：[inseq](https://github.com/inseq-team/inseq/)  
+套件內有多種方法，作業內使用 'saliency' 和 'attention'。生成表格查看 input tokens 和 output tokens 的相關性。  
+saliency：從 output tokens 回推，每一個 output tokens 對每一個 input tokens 的重要性（數值）。  
+attention：常用於 transfotmer-based models，數值代表 output tokens 對應 input tokens 的權重（猜測：attention 由第一個 token 往後生成，因此第一個權重最高）。  
+方法二：[問LLM](https://arxiv.org/pdf/2310.11207)  
+給LLM一句話，依照正反面，給每一個單字評分（正面1，反面-1）  
+
+
+
 
 
 
