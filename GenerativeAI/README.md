@@ -1,5 +1,4 @@
 # 生成式人工智慧簡介
-以下作業皆使用 Gemini API
 
 ## HW3 「Colab and Gradio Tutorial」 以API快速搭建自己的應用 
 Part 1: Summarization 對文章進行總結  
