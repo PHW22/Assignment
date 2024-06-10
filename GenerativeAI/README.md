@@ -39,6 +39,18 @@ attention：常用於 transfotmer-based models，數值代表 output tokens 對�
 方法二：[問LLM](https://arxiv.org/pdf/2310.11207)  
 給LLM一句話，依照正反面，給每一個單字評分（正面1，反面-1）  
 
+## HW8 「Safety Issues of Generative AI」  
+LLaMA-2-7B：未經過 fine-tuning，可以生成歧視性言論的句子  
+TULU-2-DPO-7B：經過 fine-tuning，無法生成歧視性言論的句子  
+
+## HW9 「Quick Summary of Lecture Video」
+透過 Whisper 將語音轉文字，藉由 API 連接 ChatGPT 整理重點
+整理重點方法一：Multi-Stage Summarization，拆成 n 段落，每個段落分別重點整理
+整理重點方法二：Refinement，拆成 n 段落，第 1 段落做總結，(總結 + 第2段落) 做總結，(總結 + 第3段落) 做總結，以此類推
+
+## HW10 「Stable Diffusion Fine-tuning」
+
+
 
 
 
