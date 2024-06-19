@@ -49,6 +49,10 @@ Multi-Stage Summarization：拆成 n 段落，每個段落分別重點整理
 Refinement：拆成 n 段落，第1段落做總結，（總結 + 第2段落）做總結，（總結 + 第3段落）做總結，......，（總結 + 第n段落）做總結  
 
 ## HW10 「Stable Diffusion Fine-tuning」
+對 LoRA 模型做 Fine-tune （文字和圖片的配對），在 Text-to-Image Model 內插入訓練好的 LoRA 模型，達到有效率 Fine-tune 大語言模型的效果。
+1. a man with a beard and a white shirt.（文字） $\rightarrow$ Text-to-Image Model $\rightarrow$ a man with a beard and a white shirt.（圖）
+2. Data（基奴李維的圖、對應的文字） $\rightarrow$ LoRA 
+3. a man with a beard and a white shirt.（文字） $\rightarrow$ Text-to-Image Model（加入LoRA） $\rightarrow$ a man with a beard and a white shirt.（圖＋基奴李維的臉）
 
 
 
